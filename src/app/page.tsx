@@ -27,7 +27,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <h1 className="text-lg font-semibold tracking-wide text-white">
-            Your Name
+            Reuben
           </h1>
           <div className="flex gap-6 text-sm text-slate-300">
             <a href="#about" className="transition hover:text-cyan-300">
@@ -49,13 +49,13 @@ export default function Home() {
       <section className="relative mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
         <div>
           <p className="mb-4 inline-block rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1 text-sm uppercase tracking-[0.2em] text-cyan-300">
-            Portfolio
+            Portfolio   
           </p>
 
           <h2 className="mb-6 text-5xl font-extrabold leading-tight sm:text-6xl">
             Hi, I’m{" "}
             <span className="bg-gradient-to-r from-cyan-300 via-sky-400 to-violet-400 bg-clip-text text-transparent">
-              Your Name
+              Reuben
             </span>
           </h2>
 
@@ -225,7 +225,7 @@ export default function Home() {
 
         <div className="grid gap-4 md:grid-cols-2">
           <a
-            href="mailto:your@email.com"
+            href="mailto:reuben@email.com"
             className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md transition hover:-translate-y-1 hover:border-cyan-300/30 hover:bg-white/10"
           >
             <div className="rounded-xl bg-cyan-400/10 p-3 text-cyan-300">
@@ -240,7 +240,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/temp-acc-pf"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-md transition hover:-translate-y-1 hover:border-cyan-300/30 hover:bg-white/10"
@@ -294,7 +294,7 @@ export default function Home() {
 
       <footer className="mt-8 border-t border-white/10">
         <div className="mx-auto max-w-6xl px-6 py-6 text-sm text-slate-400">
-          © 2026 Your Name. Built with Next.js and Tailwind CSS.
+          © 2026 Reuben. Built with Next.js and Tailwind CSS.
         </div>
       </footer>
     </main>
