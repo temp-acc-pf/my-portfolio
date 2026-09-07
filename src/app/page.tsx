@@ -235,7 +235,7 @@ export default function Home() {
               <div className="mb-1 text-sm uppercase tracking-wide text-cyan-300">
                 Email
               </div>
-              <div className="text-slate-100">your@email.com</div>
+              <div className="text-slate-100">reuben@email.com</div>
             </div>
           </a>
 
@@ -252,7 +252,7 @@ export default function Home() {
               <div className="mb-1 text-sm uppercase tracking-wide text-cyan-300">
                 GitHub
               </div>
-              <div className="text-slate-100">github.com/yourusername</div>
+              <div className="text-slate-100">github.com/temp-acc-pf</div>
             </div>
           </a>
 
@@ -269,7 +269,7 @@ export default function Home() {
               <div className="mb-1 text-sm uppercase tracking-wide text-cyan-300">
                 LinkedIn
               </div>
-              <div className="text-slate-100">linkedin.com/in/yourusername</div>
+              <div className="text-slate-100">linkedin.com/in/reuben</div>
             </div>
           </a>
 
