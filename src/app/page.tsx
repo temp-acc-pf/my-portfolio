@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Mail, FileText } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import VisitorCounter from "@/components/VisitorCounter";
+
 
 export default function Home() {
   return (
@@ -54,7 +56,11 @@ export default function Home() {
               View Resume
             </a>
           </div>
+          <div className="mt-6">
+            <VisitorCounter />
+          </div>
         </div>
+
 
         <div className="flex justify-center md:justify-end">
           <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 shadow-lg">
