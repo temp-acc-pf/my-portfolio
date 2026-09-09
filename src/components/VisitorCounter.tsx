@@ -8,9 +8,16 @@ export default function VisitorCounter() {
   useEffect(() => {
     const updateCount = async () => {
       try {
-        const incrementRes = await fetch("https://portfolio-backend-tgk6.onrender.com", {
-          method: "POST",
-        });
+        const incrementRes = await fetch(
+          "https://portfolio-backend-tgk6.onrender.com/visits/increment",
+          {
+            method: "POST",
+          }
+        );
+
+        if (!incrementRes.ok) {
+          throw new Error(`HTTP error! status: ${incrementRes.status}`);
+        }
 
         const incrementData = await incrementRes.json();
         setCount(incrementData.count);
